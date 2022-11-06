@@ -1,0 +1,8 @@
+.hero {
+  background-color: #EBEBE4;
+  padding: 3rem;
+}
+
+.hero__text {
+  font-size: 1.3rem;
+}

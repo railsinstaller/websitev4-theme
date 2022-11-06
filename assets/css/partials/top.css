@@ -1,0 +1,5 @@
+.top {
+    background: var(--white);
+    border-bottom: 5px solid #b1111c;
+    overflow: hidden;
+}

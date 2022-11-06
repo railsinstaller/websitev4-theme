@@ -7,7 +7,7 @@
     --magenta: #e310cb;
     --aqua: #86fbfb;
     --white: #f7f8fa;
-    --font-size: 1.3rem;
+    --font-size: 16px;
     --sans: 'Nunito', sans-serif;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
@@ -40,4 +40,39 @@ a {
 a:hover {
     color: var(--hotmag);
     text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+ display: block;
+}
+
+.contain {
+ max-width: 1280px;
+ margin: 0 auto;
+}
+
+.button {
+  background-color: #b1111c;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.hero a {
+  color: var(--white);
+ text-decoration: none;
+}
+
+.hero a:herohover {
+  color: var(--white);
+  text-decoration: none;
 }

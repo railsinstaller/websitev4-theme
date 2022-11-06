@@ -1,0 +1,26 @@
+.header__inner {
+    padding: 1rem 0rem;
+}
+
+.header__nav  {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {    
+    .header__nav {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+}
+
+.header__logo {
+    flex-basis: 100%;
+	max-width: 20rem;
+}
+
+.header__logo img {
+  max-width: 100%;
+  height: auto;
+}

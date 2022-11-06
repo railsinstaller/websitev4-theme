@@ -1,0 +1,20 @@
+.footer {
+    background: #b1111c;
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.footer__container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 3em;
+    text-align: center;
+    width: 100%;
+}
+
+.footer__text--spaced {
+    letter-spacing: -0.02em;
+}
